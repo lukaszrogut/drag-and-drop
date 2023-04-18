@@ -1,0 +1,35 @@
+body {
+    background: rgb(29, 135, 153);
+    background: linear-gradient(90deg, rgba(29, 135, 153, 1) 0%, rgba(117, 190, 161, 1) 35%, rgba(10, 152, 106, 1) 100%);
+}
+
+.fill {
+    background-image: url("https://placehold.co/150x150");
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.empty {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    background-color: tomato;
+    border: 2px solid #444;
+    margin: 10px;
+}
+
+.empty.over {
+    border-style: dashed;
+    background-color: lightcoral;
+}
+
+.hold {
+    opacity: .5;
+}
+
+.invisible {
+    display: none;
+}
